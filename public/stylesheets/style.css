@@ -1,4 +1,4 @@
-body{
+body {
     background-color: antiquewhite;
 }
 
@@ -10,41 +10,42 @@ body{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-h1{
+h1 {
     font-family: Playfair;
 }
-h2{
+
+h2 {
     font-family: Playfair;
     font-weight: bolder;
 }
 
-p{
+p {
     font-family: Lora;
     line-height: 1.6;
     margin-bottom: 1rem;
-    
+
 }
 
-h5{
+h5 {
     font-family: Playfair;
-    font-style:oblique;
+    font-style: oblique;
     font-weight: 600;
 }
 
-.hero{
-    background:url(/images/Gemini_Generated_Image_sma54qsma54qsma5.png) no-repeat center;
+.hero {
+    background: url(/images/Gemini_Generated_Image_sma54qsma54qsma5.png) no-repeat center;
     background-size: cover;
     height: 100vh;
     color: white;
 }
 
 
-.listanovedades{
+.listanovedades {
     list-style: none;
     padding: 0;
 }
 
-.listanovedades li a{
+.listanovedades li a {
     margin: 4px 0;
     width: 200px;
     display: flex;
@@ -56,28 +57,28 @@ h5{
     font-size: 25px;
 }
 
-.listanovedades li a img{
+.listanovedades li a img {
     width: 100px;
     height: 100px;
     object-fit: cover;
     margin-right: 15px;
     border-radius: 4px;
-    filter:grayscale();
+    filter: grayscale();
 }
 
-.listanovedades li a:hover{
+.listanovedades li a:hover {
     margin: 4px 0;
     width: 200px;
     display: flex;
     align-items: center;
     margin-bottom: 10px;
     font-family: Lora;
-    color:#248439;
+    color: #248439;
     text-decoration: none;
     font-size: 25px;
 }
 
-.listanovedades li a:hover img{
+.listanovedades li a:hover img {
     width: 100px;
     height: 100px;
     object-fit: cover;
@@ -88,10 +89,10 @@ h5{
 
 
 .carousel-item {
-    height: 400px; 
+    height: 400px;
     background-color: #445545f3;
     border-radius: 10px;
-    border:none;
+    border: none;
 }
 
 
@@ -106,7 +107,7 @@ h5{
 }
 
 
-#historia p{
+#historia p {
     font-size: 1.5rem;
     font-style: italic;
     color: #333;
@@ -114,10 +115,10 @@ h5{
     font-family: Lora;
     margin-bottom: 10px;
     line-height: 1.5;
-    letter-spacing:1px;
+    letter-spacing: 1px;
 }
 
-#nosotros p{
+#nosotros p {
     font-size: 0.9rem;
     font-style: italic;
     color: #333;
@@ -125,18 +126,18 @@ h5{
     font-family: Lora;
     margin-bottom: 10px;
     line-height: 1.5;
-    letter-spacing:1px;
+    letter-spacing: 1px;
 }
 
-#nosotros{
-    background-color:rgb(243, 232, 217);
+#nosotros {
+    background-color: rgb(243, 232, 217);
 }
 
-.mapa iframe{
+.mapa iframe {
     width: 100%;
     aspect-ratio: 1.2;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
