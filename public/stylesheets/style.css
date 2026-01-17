@@ -1,0 +1,142 @@
+body{
+    background-color: antiquewhite;
+}
+
+.barrapersonalizada {
+    background: #74eb8d;
+    background: repeating-linear-gradient(90deg, #74eb8d 0%, #ffffff 10%, #ee6c6c 20%);
+    color: black !important;
+    border-bottom: 2px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    font-family: Playfair;
+}
+h2{
+    font-family: Playfair;
+    font-weight: bolder;
+}
+
+p{
+    font-family: Lora;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    
+}
+
+h5{
+    font-family: Playfair;
+    font-style:oblique;
+    font-weight: 600;
+}
+
+.hero{
+    background:url(/images/Gemini_Generated_Image_sma54qsma54qsma5.png) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+
+.listanovedades{
+    list-style: none;
+    padding: 0;
+}
+
+.listanovedades li a{
+    margin: 4px 0;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: Lora;
+    color: rgba(154, 54, 74, 0.993);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.listanovedades li a img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 4px;
+    filter:grayscale();
+}
+
+.listanovedades li a:hover{
+    margin: 4px 0;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: Lora;
+    color:#248439;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.listanovedades li a:hover img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 4px;
+    filter: none;
+}
+
+
+.carousel-item {
+    height: 400px; 
+    background-color: #445545f3;
+    border-radius: 10px;
+    border:none;
+}
+
+
+.carousel-item .testimonios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 30px;
+    text-align: center;
+}
+
+
+#historia p{
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #333;
+    max-width: 700px;
+    font-family: Lora;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    letter-spacing:1px;
+}
+
+#nosotros p{
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #333;
+    max-width: 200px;
+    font-family: Lora;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    letter-spacing:1px;
+}
+
+#nosotros{
+    background-color:rgb(243, 232, 217);
+}
+
+.mapa iframe{
+    width: 100%;
+    aspect-ratio: 1.2;
+}
+
+html{
+    scroll-behavior: smooth;
+}
